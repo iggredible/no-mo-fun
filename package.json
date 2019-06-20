@@ -1,0 +1,23 @@
+{
+  "name": "ntimes",
+  "version": "1.0.0",
+  "description": "Run a function up to n times, no more.",
+  "main": "nTimes.js",
+  "module": "nTimes.js",
+  "files": [
+    "nTimes.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor L Irianto <igoririanto@rocketmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "wrappy": "1.0.2"
+  },
+  "devDependencies": {
+    "jest": "24.8.0",
+    "rimraf": "2.6.3",
+    "rollup": "1.15.6"
+  }
+}
