@@ -32,7 +32,7 @@ function twiceFunc(fn) {
   let calledTwiceCounter = 0;
   return function() {
     if (calledTwiceCounter >= 2) return;
-    counter++;
+    calledTwiceCounter++;
     return fn.apply(this, arguments);
   };
 }
