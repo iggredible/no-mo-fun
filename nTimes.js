@@ -1,16 +1,4 @@
 const wrappy = require("wrappy");
-// task: use ESM to make this importable/ tree shakeable!
-// plan:
-// - rewrite this with module exports
-// - rollup
-// - test:
-//  - first, on browser. See if I can do <script module...> and import only one or two, say once and thrice
-//  - then, on node. See if it still works even though it's written in ESM
-
-// module.exports = nTimes;
-// module.exports.once = wrappy(once);
-// module.exports.twice = wrappy(twice);
-// module.exports.thrice = wrappy(thrice);
 
 function nTimesFunc(fn, n) {
   let calledNTimesCounter = 0;

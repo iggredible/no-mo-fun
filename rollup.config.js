@@ -1,7 +1,10 @@
+import pkg from "./package.json";
+
 export default {
   input: "nTimes.js",
   output: {
-    file: "dist/nTimes.js",
-    format: "cjs"
+    file: pkg.main,
+    format: "umd",
+    name: "nTimes"
   }
 };

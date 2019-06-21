@@ -1,11 +1,18 @@
-import { once } from "../nTimes";
+import { twice, nTimes } from "../nTimes";
 
 const sayHello = function() {
-  console.log("HELLO FUNC");
+  console.log("Hello, you good looking person");
 };
-const sayHelloOnce = once(sayHello);
-console.log("about to say it: ");
-sayHelloOnce();
-console.log("said it once^");
-sayHelloOnce();
-console.log("did I say it second time?^");
+
+const hablaHola = function() {
+  console.log("Hola hermoso");
+};
+
+const sayHelloTwice = twice(sayHello);
+sayHelloTwice();
+sayHelloTwice();
+sayHelloTwice(); // => should not do anything anymore
+
+const sayHolaOnce = nTimes(hablaHola, 1);
+sayHolaOnce();
+sayHolaOnce(); // => should not do anything anymore
