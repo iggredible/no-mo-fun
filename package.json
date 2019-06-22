@@ -1,6 +1,6 @@
 {
   "name": "no-mo-fun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run a function no-mo' than n times",
   "main": "dist/noMoFun.umd.js",
   "module": "noMoFun.js",
@@ -34,5 +34,9 @@
     "once",
     "twice",
     "thrice"
-  ]
+  ],
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/iggredible/no-mo-fun"
+  }
 }
