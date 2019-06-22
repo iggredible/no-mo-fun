@@ -1,6 +1,6 @@
-# noMoFun
+![NoMoFun](readme_assets/nomofun.png)
 
-Calls function no-mo' than *n* many times
+Calls function no-mo' than *n* many times. *Doesn't mean you can't have no-mo' fun!*
 
 # Installation/ Usage
 
