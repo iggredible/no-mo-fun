@@ -1,4 +1,6 @@
-import { twice, nTimes } from "../nTimes";
+import { twice, nTimes } from "../noMoFun";
+// const twice = require("../dist/nTimes.umd.js").twice;
+// const nTimes = require("../dist/nTimes.umd.js").nTimes;
 
 const sayHello = function() {
   console.log("Hello, you good looking person");

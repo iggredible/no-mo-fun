@@ -1,11 +1,12 @@
 {
-  "name": "ntimes",
+  "name": "no-mo-fun",
   "version": "1.0.0",
-  "description": "Run a function up to n times, no more.",
-  "main": "dist/nTimes.umd.js",
-  "module": "nTimes.js",
+  "description": "Run a function no-mo' than n times",
+  "main": "dist/noMoFun.umd.js",
+  "module": "noMoFun.js",
   "files": [
-    "nTimes.js"
+    "noMoFun.js",
+    "dist"
   ],
   "scripts": {
     "build": "run-s clean build:umd",
@@ -33,9 +34,5 @@
     "once",
     "twice",
     "thrice"
-  ],
-  "files": [
-    "nTimes.js",
-    "dist"
   ]
 }

@@ -1,13 +1,13 @@
-# nTimes
+# noMoFun
 
-Calls function no more than *n* many times
+Calls function no-mo' than *n* many times
 
 # Installation/ Usage
 
-`npm i ntimes`
+`npm i noMoFun`
 
 ```
-import { nTimes, once, twice, thrice } from "../nTimes";
+import { nTimes, once, twice, thrice } from "../noMoFun";
 
 const sayHello = function() {
   console.log("Hello, you good looking person");

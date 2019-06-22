@@ -1,4 +1,4 @@
-import { nTimes, once, twice, thrice } from "../nTimes";
+import { nTimes, once, twice, thrice } from "../noMoFun";
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));

@@ -1,7 +1,7 @@
 import pkg from "./package.json";
 
 export default {
-  input: "nTimes.js",
+  input: "noMoFun.js",
   output: {
     file: pkg.main,
     format: "umd",
