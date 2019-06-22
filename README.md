@@ -39,6 +39,8 @@ npm i
 npm run start-demo // will run on localhost:1234
 ```
 
+# License
+[MIT](https://github.com/iggredible/no-mo-fun/blob/master/LICENSE)
 ___
 
 Questions and suggestions are welcome. Have fun!
